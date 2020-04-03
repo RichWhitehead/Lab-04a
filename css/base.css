@@ -2,26 +2,19 @@
   box-sizing: border-box;
 }
 
-body {
-  width: 480px;
+html {
+  border: solid darkgrey 1px;
   margin: auto;
-  display: flex;
-  flex-flow: row;
-  flex-wrap: wrap;
+  width: 482px;
+
 }
 
 @media(min-width: 768px) {
-  body {
-      width: 960px;
-      display: grid;
-      grid-template-columns: 200px repeat(4, 190px);
-      grid-template-rows: 100px 200px 250px 150px;
+  html{
+    margin: auto;
+    width: 962px;
+    border: solid darkgrey 1 px;
   }
-}
 
-@media(min-width:960px) {
-  body {
-      width: 960px;
-      margin: auto;
-  }
 }
+  
