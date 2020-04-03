@@ -10,7 +10,9 @@ html {
 }
 
 @media(min-width: 768px) {
+  
   html{
+
     margin: auto;
     width: 962px;
     border: solid darkgrey 1 px;
